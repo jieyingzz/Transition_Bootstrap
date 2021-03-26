@@ -1,0 +1,105 @@
+
+
+
+.page-holder {
+  min-height: 90vh;
+}
+
+
+.jumbotron {
+  margin-bottom: -10px;
+  padding: 10px;
+  background: none;
+}
+
+.be-cover {
+  background-image: 
+    url("https://post.healthline.com/wp-content/uploads/2020/04/makeup_composition_overhead-732x549-thumbnail.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: #869ba0;
+  font-size: 18px;
+  color: white;
+}
+
+
+
+footer {
+  margin-top: 25px;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: rgb(156, 229, 132);
+  color: black;
+}
+
+.flip-box-back {
+  background-color: rgb(255, 229, 132);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+	a{
+		text-decoration:none;
+		color:inherit;
+	}
+    
+    .topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: pink ;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: pink;
+  color: white;
+}
+   
