@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Transitions</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1 style="text-align:center; color:#ffcccc;"><strong>What Is Transitions??</strong></h1>
+<h2 style="text-align:center; color:#ffb380;"><strong>Let's Learn!</strong></h2>
+
+<nav style="border:5px double; color:pink; height:100px; width:1235px; ">
+    <ul>
+        <a href="#" class="button1">Button 1</a>
+        <a href="#" class="button2">Button 2</a>
+        <a href="#" class="button3">Button 3</a>
+        <br>
+        <br>
+        <br>
+        <div class="right">
+        <div class="icon">
+        <img src="https://freepngimg.com/thumb/logo/62837-instagram-icons-photography-computer-logo-icon.png" width="50" height="50">
+        </div>
+        <div class="icon">
+        <img src="https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png" width="50" height="50">
+        </div>
+        <div class="icon">
+        <img src="https://img.icons8.com/ios/452/facebook-new.png" width="50" height="50">
+        </div>
+        </div>
+    </ul>
+</nav>
+<br>
+<br>
+<br>
+    <h2 style="color:pink">Answer</h2>
+<p style=" border:5px dotted pink;">
+    1. If I use the term "all", I can delete "color 0.2s linear" in the following code: "transition: background .3s ease, color 0.2s linear<br>
+    2. I will need to know the terms when learning the transition. I know that ease starts at a slow speed, then becomes faster, and then ends slowly. And liner stays at the same speed. Ease-in and ease-out are similar, but ease-in starts at a slow speed, and ease-out ends at a slow speed. Gradually, it starts slowly and ends slowly. The last item is the cubic-bezier, which specifies your own transition look value.
+</p>
+
+<h1 style="text-align:center; color:pink;"><strong>Gallery</strong></h1>
+<div class="fadein">
+    <img src="https://static.scientificamerican.com/sciam/cache/file/30647AC1-B772-4607-BF3C3D43456E7103_source.jpg" width="500" height="400">&nbsp;&nbsp;
+    </div>
+    <div class="color">
+    <img src="https://image.freepik.com/free-photo/top-down-drone-shot-big-waves-kelingking-beach-nusa-penida-bali-indonesia_1379-3825.jpg" width="500" height="400">&nbsp;&nbsp;
+    </div>
+<div class="grow">
+    <img src="https://scx2.b-cdn.net/gfx/news/hires/2019/3-ocean.jpg" alt="pic" width="500" height="400">
+</div>
+</body>
+</html>
